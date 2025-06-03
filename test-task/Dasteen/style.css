@@ -103,9 +103,19 @@ input[type="text"]::placeholder{
     width: 100%;
     background: #EFF0F3;
 }
-/*..............section class="wrapper_w-1250 box................*/
+.wrapper_w-1250s{
+    width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*..............section box................*/
 .box{
     padding: 164px 0 263px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .dasteen-form{
     padding-right: 116px;
@@ -160,3 +170,89 @@ input[type="text"]::placeholder{
     transform: scale(1.1);
 }
 
+/*..............section class="category"..........*/
+.category{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.text{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text:nth-child(1){
+    color: #2B2C34;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.text:nth-child(2){
+    color: #2B2C34;
+    text-align: right;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.text a::after{
+    content: '';
+    display: inline-block;
+    width: 6px;
+    height: 14px;
+    background-image: url("img/after.svg");
+    padding-right: 1px;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 37px;
+    padding-bottom: 68px;
+}
+.card{
+    width: 220px;
+    height: 280px;
+    border-radius: 8px;
+    background: #FFFFFE;
+    color: #2B2C34;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 7.458px;
+    background: #FFFFFE;
+    padding: 12px 14px 11px 13px;
+    margin: 65px 130px 30px 30px;
+}
+.card:hover{
+    border-radius: 8px;
+    background: #6246EA;
+    color: #FFFFFE;
+}
+.card h3{
+    padding-left: 30px;
+}
+
+.part-2{
+    width: 100%;
+    background: #FFFFFE;
+}
+.wrapper_w-1250a{
+    width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
