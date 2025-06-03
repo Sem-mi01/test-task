@@ -98,3 +98,65 @@ input[type="text"]::placeholder{
 }
 
 /*.............main...............*/
+
+.part-1{
+    width: 100%;
+    background: #EFF0F3;
+}
+/*..............section class="wrapper_w-1250 box................*/
+.box{
+    padding: 164px 0 263px 0;
+}
+.dasteen-form{
+    padding-right: 116px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.dasteen-form h1{
+    width: 617px;
+    color: #2B2C34;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.dasteen-form p{
+    width: 652px;
+    color: #9A9494;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.register-form input{
+    width: 444px;
+    height: 67px;
+    color: #C0C0C0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 21px 200px 21px 25px;
+    border: none;
+    border-radius: 8px;
+    background:#FFFFFE;
+    margin-right: 20px;
+}
+.register-form button{
+    width: 145px;
+    height: 67px;
+    border-radius: 8px;
+    background: #6246EA;
+    color: #FFFFFE;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.register-form button:hover{
+    transform: scale(1.1);
+}
+
