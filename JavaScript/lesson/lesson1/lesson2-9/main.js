@@ -39,5 +39,3 @@ console.log(!!'');            // false, те що собою являє "ніч�
 
 console.log(!!'0');           // true
 console.log(!!' ');           // true
-
-

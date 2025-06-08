@@ -6,6 +6,7 @@ console.log(typeof (100500 + '')); // string
 console.log (100 + 200 + ''); // 300 string
 console.log('' + 100 + 200); // 100200 string
 
+
 // конвертація string в number
 console.log(+'100500'); // number (ставимо +)
 console.log(+ '100500asd'); // NaN

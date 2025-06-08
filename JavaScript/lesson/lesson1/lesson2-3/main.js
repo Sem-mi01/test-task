@@ -19,11 +19,12 @@
 // console.log(a);
 // змінна типу let видима лише в межах блоку. Викликати її поза межами блоку неможливо (в цілях безпеки) на відміну від var, яка зараз не використовується взагалі
 
-const PI = 3.14;
-console.log(PI);
-// PI = 123; -отримуємо помилку, бо зазначені цифри
+// const PI = 3.14;
+// console.log(PI);
+// // PI = 123; -отримуємо помилку, бо зазначені цифри
+//
+// let a   = 'lkJDhfhb'
+// console.log(a);
+// a = 'hello okten';
+// console.log(a);
 
-let a   = 'lkJDhfhb'
-console.log(a);
-a = 'hello okten';
-console.log(a);
